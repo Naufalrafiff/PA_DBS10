@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAMUSCLE | Engineered for Excellence</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #000000; color: #ffffff; }
+        .text-lime { color: #ccff00; }
+        .bg-lime { background-color: #ccff00; }
+        .border-lime { border-color: #ccff00; }
+    </style>
+</head>
+<body>
+    <header class="flex justify-between items-center px-10 py-6 sticky top-0 bg-black z-50">
+        <div class="text-2xl font-black italic text-lime">PAMUSCLE</div>
+        <nav class="hidden md:flex space-x-8 text-xs font-bold tracking-widest uppercase">
+            <a href="#" class="hover:text-lime">Shop All</a>
+            <a href="#" class="hover:text-lime">Goals</a>
+            <a href="#" class="hover:text-lime">Stacks</a>
+            <a href="#" class="hover:text-lime">Science</a>
+            <a href="#" class="hover:text-lime">About</a>
+        </nav>
+        <div class="flex items-center space-x-5">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>
+        </div>
+    </header>
+
+    <section class="relative h-[80vh] flex items-center justify-center text-center px-4 overflow-hidden">
+        <div class="absolute inset-0 bg-black/60 z-10"></div>
+        <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=2070&auto=format&fit=crop" class="absolute inset-0 w-full h-full object-cover" alt="Hero">
+        <div class="relative z-20 max-w-4xl">
+            <span class="text-xs font-bold tracking-tighter uppercase bg-lime text-black px-2 py-1 mb-4 inline-block">Engineered for Excellence</span>
+            <h1 class="text-6xl md:text-8xl font-black italic leading-none mb-6">BUILT FOR <br> <span class="text-lime">MUSCLE GROWTH</span></h1>
+            <p class="text-gray-400 max-w-xl mx-auto mb-8">Elite supplementation for serious athletes. Backed by science, driven by results. Experience the apex of physical optimization.</p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <button class="bg-lime text-black font-bold py-4 px-10 uppercase tracking-tighter hover:bg-white transition">Shop Best Sellers</button>
+                <button class="border border-white text-white font-bold py-4 px-10 uppercase tracking-tighter hover:bg-white hover:text-black transition">Explore Stacks</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 px-10">
+        <div class="flex justify-between items-end mb-12">
+            <div>
+                <h2 class="text-4xl font-black italic">TARGETED <span class="text-lime">NUTRITION</span></h2>
+                <p class="text-gray-500">Premium compounds for every phase of your training.</p>
+            </div>
+            <a href="#" class="text-xs font-bold uppercase border-b border-lime pb-1">View All Categories</a>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bg-zinc-900 p-8 flex flex-col justify-between group cursor-pointer relative overflow-hidden">
+                <div class="relative z-10">
+                    <span class="text-[10px] font-bold text-lime bg-lime/10 px-2 py-1 uppercase">Best Seller</span>
+                    <h3 class="text-2xl font-black mt-4 uppercase">Isolate Whey</h3>
+                    <p class="text-gray-400 text-sm mt-2">Ultra-pure, fast-absorbing protein for immediate muscle recovery and growth.</p>
+                </div>
+                <button class="mt-8 bg-lime text-black text-xs font-bold py-2 px-4 w-fit uppercase transition group-hover:scale-105">Shop Protein</button>
+            </div>
+
+            <div class="space-y-6">
+                <div class="bg-zinc-900 p-8 flex justify-between items-center group cursor-pointer">
+                    <div>
+                        <h3 class="text-xl font-black uppercase">Pre-Workout</h3>
+                        <p class="text-gray-500 text-xs mt-1">Explosive energy & focus.</p>
+                        <button class="text-lime text-[10px] font-bold mt-4 uppercase">Shop Pre →</button>
+                    </div>
+                </div>
+                <div class="bg-zinc-900 p-8 flex justify-between items-center group cursor-pointer">
+                    <div>
+                        <h3 class="text-xl font-black uppercase">Creatine</h3>
+                        <p class="text-gray-500 text-xs mt-1">Strength & power output.</p>
+                        <button class="text-lime text-[10px] font-bold mt-4 uppercase">Shop Creatine →</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="border-t border-zinc-800 py-10 px-10">
+        <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="text-xl font-black italic text-white uppercase">Pamuscle</div>
+            <div class="flex space-x-6 text-[10px] font-bold text-gray-500 uppercase">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Shipping</a>
+                <a href="#">Returns</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="text-[10px] text-gray-600 font-medium">
+                © 2026 PAMUSCLE PERFORMANCE. | DEVELOPED BY: NAUFAL RAFIF ADIGHAMA (2406368965)
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
